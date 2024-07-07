@@ -1,0 +1,13 @@
+.chat-box{
+    border: solid 3px black;
+    border-radius: 3%;
+    width: 32rem;
+    height: 24.2rem;
+    margin-top: 10rem;
+}
+
+.chat-main{
+    display: flex;
+    justify-content: center;
+
+}

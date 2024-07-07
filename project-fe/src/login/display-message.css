@@ -1,0 +1,54 @@
+/* Styles for the message display container */
+.message-display {
+    height: 15rem; /* Fixed height */
+    overflow-y: scroll; /* Scrollable area */
+    padding: 1rem; /* Padding inside the container */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    display: flex;
+    flex-flow: column;
+}
+
+/* Styles for the email spans */
+.sender-email, .other-email {
+    font-weight: bold; /* Bold font for emails */
+    display: block; /* Block elements */
+    margin-bottom: 0.25rem; /* Spacing below the email */
+}
+
+/* Styles for the sender email */
+.sender-email {
+    color: #007bff; /* Blue text for sender email */
+    display:flex;
+    justify-content: flex-end;
+}
+
+/* Styles for the other email */
+.other-email {
+    color: #555; /* Dark gray text for other email */
+}
+
+/* Styles for the messages */
+.youMessage, .otherMessage {
+    display: block; /* Block elements */
+    padding: 0.5rem; /* Padding inside the messages */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 1rem; /* Spacing below the messages */
+    max-width: 80%; /* Limit width of messages */
+    word-wrap: break-word; /* Break long words */
+}
+
+/* Styles for the sender messages */
+.youMessage {
+    background-color: #e6f7ff; /* Light blue background */
+    align-self: flex-end; /* Align to the right */
+    color: #333; /* Dark text */
+}
+
+/* Styles for the other messages */
+.otherMessage {
+    background-color: #f1f1f1; /* Light gray background */
+    align-self: flex-start; /* Align to the left */
+    color: #333; /* Dark text */
+}

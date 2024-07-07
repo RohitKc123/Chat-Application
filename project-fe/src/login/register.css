@@ -1,0 +1,69 @@
+/* Styles for the register-form-div container */
+.register-form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styles for the register-form */
+.register-form {
+    background-color: #fff; /* White background */
+    padding: 2rem; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width for the form */
+}
+
+/* Styles for form labels */
+.register-form label {
+    display: block; /* Labels as block elements */
+    margin-bottom: 0.5rem; /* Spacing below labels */
+    font-weight: bold; /* Bold font for labels */
+}
+
+/* Styles for form inputs */
+.register-form input {
+    width: 100%; /* Full width inputs */
+    padding: 0.5rem; /* Padding inside inputs */
+    margin-bottom: 1rem; /* Spacing below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Styles for the submit button */
+.register-form button {
+    width: 100%; /* Full width button */
+    padding: 0.75rem; /* Padding inside the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size */
+    margin-bottom: 2rem;
+}
+
+/* Button hover effect */
+.register-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for the error message */
+.register-form p {
+    color: red; /* Red text for error messages */
+    font-weight: bold; /* Bold font for error messages */
+}
+
+.register-form a:hover{
+    background-color: #0056b3 !important;
+}
+
+.register-form a{
+    text-decoration: none;
+    padding:0.6rem 7.7rem 0.6rem 7.5rem;
+    background-color:#007bff;
+    border-radius: 4px;
+    color:White;
+}

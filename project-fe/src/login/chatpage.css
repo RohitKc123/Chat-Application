@@ -1,0 +1,35 @@
+.chat-box {
+    border: 1px solid black;
+    height: 30.7rem;
+    width: 25rem;
+}
+
+.message-box{
+    height: 24rem;
+    width: 25rem;
+}
+
+.snd-msg-img{
+    height: 20px;
+    width: 25px;
+}
+.msg-submit-btn{
+    margin-left: 2px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.msg-submit-btn:hover{
+    background-color: rgb(76, 92, 238);
+}
+
+.snd-msg-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+.message-input{
+    height: 29px;
+}
